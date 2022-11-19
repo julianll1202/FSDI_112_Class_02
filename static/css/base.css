@@ -1,3 +1,28 @@
 h1 {
-    color: red;
+    color: blue;
+    text-align: center;
+    font-weight: 800;
+    
+    
+}
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.about-img {
+    width: 45%;
+    height: 300px;
+}
+
+.about-info form {
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form p {
+    font-weight: 500;
 }

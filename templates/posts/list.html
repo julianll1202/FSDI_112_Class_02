@@ -4,11 +4,14 @@
 
 {% block content %}
 <h1>Posts</h1>
-<ul>
-    {% for post in post_list %}
-    <li>
-        <a href="{% url 'detail' post.id %}">{{post.title}}</a>
-    </li>
-    {% endfor %}
-</ul>
+<div class="post-list">
+    <ul>
+        {% for post in post_list %}
+        <li>
+            <a href="{% url 'detail' post.id %}">{{post.title}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
 {% endblock content %} 
